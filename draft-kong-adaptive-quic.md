@@ -1,5 +1,5 @@
 ---
-title: "An adaptive transport protocol based on quic to cater to certain environment and business"
+title: "An adaptive transport protocol based on quic."
 abbrev: Adaptive-QUIC
 docname: draft-kong-adaptive-quic-00
 date: {DATE}
@@ -62,7 +62,7 @@ For brevity, "Connection ID" will often be abbreviated as "CID".
 ## Notation
 
 All wire formats will be depicted using the notation defined in Section 1.3 of
-{{QUIC-TRANSPORT}}. There is one addition: the function len() refers to the
+QUIC-TRANSPORT. There is one addition: the function len() refers to the
 length of a field which can serve as a limit on a different field, so that the
 lengths of two fields can be concisely defined as limited to a sum, for example:
 
